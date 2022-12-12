@@ -1,10 +1,10 @@
-#include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
+#include <time.h>
+#include <stdio.h>
 /**
  * main - main block
- * descriptiom: get a randkm number and print number
- * return 0
+ * Desceiption: Get a random number and print the number
+ * Return: 0
  */
 int main(void)
 {

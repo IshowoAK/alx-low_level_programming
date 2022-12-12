@@ -1,21 +1,22 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 /**
  * main - main block
- * Description: get a random number and check its
+ * Description: prints all single digit number of base 10
+ * starting from 0,followed by a new line
  * Return: 0
  */
 int main(void)
 {
-	char c = 'a';
+	char c = '0';
 
-	while (c <= 'z')
-	{
-		if (c != 'e' && c != 'q')
+	while (c <= '9')
 		{
 			putchar(c);
+			c++;
 		}
-		c++;
-	}
+
 	putchar('\n');
 	return (0);
 }

@@ -2,15 +2,15 @@
 /**
  * main -main block
  * Description: get a random number and check its
- * Return" 0
+ * Return: 0
  */
 int main(void)
 {
 	char c = 'a';
 
-	while ( c <= 'z')
+	while  (c <= 'z')
 	{
-		if ( c != 'e' && c != 'q')
+		if (c != 'e' && c != 'q')
 		{
 			putchar(c);
 		}
@@ -19,4 +19,3 @@ int main(void)
 	putchar('\n');
 		return (0);
 }
-	

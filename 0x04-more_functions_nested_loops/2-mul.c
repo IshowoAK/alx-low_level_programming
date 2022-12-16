@@ -2,12 +2,12 @@
 
 /**
  * mul - Multiplies two integers
- * @b: The first integer to be multiplied is.
- * @c: The second integer to be multipliedis.
+ * @a: The first integer to be multiplied is.
+ * @b: The second integer to be multipliedis.
  *
  * Return: The result of the multiplication.
  */
-int mul(int b, int c)
+int mul(int a, int b)
 {
-	return (b * c);
+	return (a * b);
 }
